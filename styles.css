@@ -6,7 +6,7 @@
 }
 body{
   background: #333;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 a {
   color: #888;
@@ -15,4 +15,43 @@ a {
 }
 a:hover {
   color: #fff;
+}
+.first h1 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+}
+@media (max-width: 1024px){
+  .first h1 {
+    font-size: 38px;
+  }
+  .second {
+    -webkit-clip-path: polygon(0 0, 1920px 0, 1920px 100%, 0 100%);
+    clip-path: polygon(0 0, 1920px 0, 1920px 100%, 0 100%);
+  }
+}
+.second {
+  -webkit-clip-path: polygon(0 19%, 1920px 0, 1920px 100%, 0 95%);
+  clip-path: polygon(0 19%, 1920px 0, 1920px 100%, 0 95%);
+  background-color:  #3e6ebc;
+  padding: 140px 10% 60px 10px;
+}
+.second h1 {
+  color: #333;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+}
+.second p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
 }
