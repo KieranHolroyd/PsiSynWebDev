@@ -1,0 +1,123 @@
+*{
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background: #333;
+  overflow-x: hidden;
+}
+a {
+  color: #888;
+  text-decoration: none;
+  transition: .3s;
+}
+a:hover {
+  color: #fff;
+}
+.first h1 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+}
+@media (max-width: 1024px){
+  .first h1 {
+    font-size: 38px;
+  }
+  .second {
+    -webkit-clip-path: polygon(0 0, 1920px 0, 1920px 100%, 0 100%);
+    clip-path: polygon(0 0, 1920px 0, 1920px 100%, 0 100%);
+  }
+}
+.second {
+  -webkit-clip-path: polygon(0 19%, 1920px 0, 1920px 100%, 0 95%);
+  clip-path: polygon(0 19%, 1920px 0, 1920px 100%, 0 95%);
+  background-color:  #3e6ebc;
+  padding: 140px 10% 60px 10px;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.second h1 {
+  color: #333;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+}
+.second p {
+  color: #333;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+  text-align: justify;
+  font-weight: 500;
+}
+.third {
+  padding: 40px 10% 60px 10px;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.third h1 {
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+}
+.third span{
+  color: rgba(255,255,255,0.2);
+  font-size: 15px;
+}
+.third div {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10%;
+  transition: .3s;
+  text-align: justify;
+  font-weight: 500 !important;
+}
+.third div p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transition: .3s;
+  text-align: justify;
+  font-weight: 500 !important;
+}
+.third div i {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transition: .3s;
+  text-align: justify;
+  font-weight: 500 !important;
+}
+.third div strong {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transition: .3s;
+  text-align: justify;
+  font-weight: 500 !important;
+}
